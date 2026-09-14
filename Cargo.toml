@@ -1,0 +1,17 @@
+[package]
+name = "portpeek"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+description = "A polite, localhost-first TCP port peeker"
+repository = "https://github.com/za/portpeek"
+
+[dependencies]
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "net", "time", "sync"] }
+clap = { version = "4", features = ["derive"] }
+
+[profile.release]
+lto = true
+strip = true
+codegen-units = 1
+panic = "abort"

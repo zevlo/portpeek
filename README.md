@@ -23,7 +23,7 @@ cargo install --path .
 Or with Docker:
 
 ```sh
-docker build -t portpeek .
+docker build --provenance=false -t portpeek .
 docker run --rm portpeek 127.0.0.1 22,80,443,5432,6379,8080
 ```
 

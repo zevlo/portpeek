@@ -1,7 +1,6 @@
 # portpeek
 
-portpeek tells you whether something listens on TCP ports. It answers one
-question: for these ports, is anything there?
+portpeek⁠ answers one simple question: is a service listening on this TCP port?
 
 Use it for the daily cases: "did postgres come up on 5432?" or "did docker
 move it to 5433?"

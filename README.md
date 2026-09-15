@@ -11,6 +11,8 @@ For each port you get one of three answers:
 - `closed`: the host sent RST. The host is up and the port is free.
 - `filtered`: silence until the timeout. A firewall may be dropping packets.
 
+**Demo (11 s):** [asciinema.org/a/PzI7I7mjqnLHBtGU](https://asciinema.org/a/PzI7I7mjqnLHBtGU)
+
 ## Install
 
 You need Rust 1.85 or later.
